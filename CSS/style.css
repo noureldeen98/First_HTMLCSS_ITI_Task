@@ -1,0 +1,221 @@
+body{
+    background-color: rgb(234,237,237);
+}
+
+.navBar{
+    background-color: black;
+    margin: 0;
+    height: 80px;
+}
+
+.navBar .ulOfNavBar li{
+    margin-top: 10px;
+}
+
+ul{
+   display: flex;
+   margin-top: 7px;
+   margin-bottom: 0;
+}
+ul li{
+    
+    margin-left: 15px;
+    list-style: none;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.second_NavBar{
+    background-color: rgb(35,47,62);
+    height: 40px;
+    margin-top: 0px;
+}
+
+.second_NavBar .ulOfSecondNavBar{
+    margin-top: 0;
+}
+
+.second_NavBar .ulOfSecondNavBar li{
+    margin-left: 10px;
+    margin-top: 6px;
+}
+
+.OffersSlideShow{
+    position: relative;
+  
+}
+
+
+.offerBox,.SecondofferBox{
+    display: flex;
+    margin-bottom: 30px;
+
+}
+
+.boxes a{
+    color: rgba(0, 255, 242, 0.726);
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bolder;
+    padding: 5px 5px 5px 10px;
+}
+
+.boxes p{
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+    padding: 0px 5px 5px 10px;
+}
+
+.boxes img{
+    width: 310px;
+    height: 200px;
+    margin-left: 10px;
+}
+.offerBox .boxes,
+.SecondofferBox .boxes{
+    width: 25%;
+    border: 1px white solid;
+    height: 320px;
+    margin-left: 8px;
+    margin-right:8px ;
+    background-color: white;
+    
+}
+
+
+
+.WhiteFridaytopcategories , .firstcategories,
+.firstcategories,
+.secondcategories,
+.thirdcategories 
+{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    margin-top: 10px;
+    height: 200px;
+}
+
+.WhiteFridaytopcategories .whitefridayOffers li,
+.firstcategories .firstOfferBar li,
+.secondcategories .secondOfferBar li,
+.thirdcategories .thirdOfferBar li{
+    color: black;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.WhiteFridaytopcategories .whitefridayOffers img,
+.firstcategories .firstOfferBar img,
+.secondcategories .secondOfferBar img,
+.thirdcategories .thirdOfferBar img{
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.signdiv{
+    background-color: white;
+    width: 100%;
+}
+
+/*hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}*/
+
+
+.partOfFooter{
+    background-color: rgb(35,47,62);
+    height: 400px;
+    display: flex;
+    
+}
+
+.partOfFooter .part1,
+.part2OfFooter .part2{
+    margin-left: 50px;
+    margin-top: 30px;
+    
+}
+
+
+.partOfFooter .listOfPart1{
+    color: white;
+    list-style: none;
+    display: block;
+    margin-left: 0;
+    
+}
+
+.partOfFooter .part1 .listOfPart1 li a{
+    color: gray;
+    list-style: none;
+    display: block;
+    font-weight: 10;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+.partOfFooter .part1 .listOfPart1 li,
+.partOfFooter .part2 .listOfPart2 li
+ {
+    margin-left: 0;
+}
+
+a{
+    text-decoration:none;
+    color: white;
+    margin-left: 0;
+}
+
+button{
+    text-align: center; 
+    width: 100%;
+    height:40px;
+    background-color: rgb(55,71,90);
+}
+
+
+.part2OfFooter{
+    background-color: rgb(19,26,34);
+    height: 200px;
+    display: flex;
+    
+}
+
+
+
+.part2OfFooter .part2 .listOfPart .listOfPart2  li a{
+    color: gray;
+    margin-left: 0;
+    margin-right:0 ;
+    
+}
+
+
+.part2OfFooter .part2 .listOfPart .listOfPart2{
+    display: block;
+}
+
+
+.second_NavBar .ulOfSecondNavBar li:hover{
+    border:1px white solid;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 4px;
+}
+
+a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.thirdcategories .thirdOfferBar li{
+    margin-left: 10px;
+}
+
+
+
